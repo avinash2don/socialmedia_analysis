@@ -6,8 +6,8 @@ import json
 from watson_developer_cloud import ToneAnalyzerV3
 
 tone_analyzer = ToneAnalyzerV3(
-  username='ea0e446f-7798-403c-9d76-72c80b49066f',
-  password='J6IVlX4btGmY',
+  username='id',
+  password='pass',
   version='2017-06-16'
 )
 
