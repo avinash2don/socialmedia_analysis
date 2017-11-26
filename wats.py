@@ -17,8 +17,8 @@ import json
 from watson_developer_cloud import ToneAnalyzerV3
 from _codecs import encode
 
-watson_tau="<ea0e446f-7798-403c-9d76-72c80b49066f>" 
-watson_tap="<J6IVlX4btGmY>"
+watson_tau="" 
+watson_tap=""
 
 tone_analyzer = ToneAnalyzerV3(
     username=watson_tau,
