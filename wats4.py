@@ -6,8 +6,8 @@ import json
 from watson_developer_cloud import ToneAnalyzerV3
 
 tone_analyzer = ToneAnalyzerV3(
-  username='user',
-  password='pass',
+  username='ea0e446f-7798-403c-9d76-72c80b49066f',
+  password='J6IVlX4btGmY',
   version='2017-06-16'
 )
 
@@ -28,4 +28,6 @@ for data in datas_from_json:
     tone = tone_analyzer.tone(data['text'], tones='emotion',content_type='text/plain')
     
 #        print (data['text'])
-    print (json.dumps(tone, indent=2))
+    str = (json.dumps(tone, indent=2))
+    print type(str)
+    
